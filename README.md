@@ -1,10 +1,13 @@
 # Web Push Rust Example
 
-Example web server using browser push notifications. Rust backend, JS. Works in an iOS progressive web app (PWA)!
+Example web server using browser push notifications. Rust backend, JS in browser. Works in an iOS progressive web app (PWA)!
 
 ## How to run
 
-1. Clone this repository, or <a href="https://codespaces.new/ducklol2/web_push_rust_example?quickstart=1"><img src="https://github.com/codespaces/badge.svg" style="vertical-align: middle"></a>.
+1. Clone this repository, or <a href="https://codespaces.new/ducklol2/web_push_rust_example?quickstart=1">open as a GitHub Codespace</a>.
+
+  > [!TIP]
+  > Codespaces let you develop & test directly from your browser, and even forward the server port to visit with a mobile device.
 
 2. From the repo root directory, generate public & private keys, which are necessary for browser web push:
 
