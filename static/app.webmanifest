@@ -1,0 +1,11 @@
+{
+    "name": "Rusty Web Playground",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "guy.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
