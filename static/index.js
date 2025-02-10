@@ -3,6 +3,12 @@ console.log('Fetched public push key from server:', publicKey);
 
 const notifyBtn = document.querySelector('#notify');
 function updateNotify() {
+    if (!window.Notification) {
+        notifyBtn.disabled = true;
+        notifyBtn.innerHTML = "On iOS? Share ➡️ Add to Home Screen, then open there.";
+        return;
+    }
+
     switch (Notification.permission) {
         case 'granted':
             notifyBtn.disabled = false;

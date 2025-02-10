@@ -4,7 +4,7 @@ Example web server using browser push notifications. Rust backend, JS. Works in 
 
 ## How to run
 
-1. Clone this repository, or [![open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ducklol2/web_push_rust_example).
+1. Clone this repository, or <a href="https://codespaces.new/ducklol2/web_push_rust_example?quickstart=1"><img src="https://github.com/codespaces/badge.svg" style="vertical-align: middle"></a>.
 
 2. From the repo root directory, generate public & private keys, which are necessary for browser web push:
 
